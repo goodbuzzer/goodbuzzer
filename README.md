@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm VANA ZOKOM ELIE</h1>
 <h3 align="center">Data Analyst & Scientist</h3>
 
-<img align="right" alt="Gif" src="angry-man.gif">
+<img width="400" align="right" alt="Gif" src="angry-man.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=goodbuzzer&label=Profile%20views&color=0e75b6&style=flat" alt="goodbuzzer" /> </p>
 
