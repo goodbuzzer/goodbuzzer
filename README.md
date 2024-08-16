@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm VANA ZOKOM ELIE</h1>
 <h3 align="center">Data Analyst & Scientist</h3>
 
-<img width="400" align="right" alt="Gif" src="angry-man.gif">
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=goodbuzzer&label=Profile%20views&color=0e75b6&style=flat" alt="goodbuzzer" /> </p>
 
@@ -17,6 +17,9 @@
 - 📫 How to reach me **eliezokom@gmail.com**
 
 - ⚡ Fun fact **VISCA BARCA**
+
+
+<img width="300" alt="Gif" src="angry-man.gif">
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
