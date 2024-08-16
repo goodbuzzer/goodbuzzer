@@ -1,4 +1,4 @@
-<img alt="Banniere" src="Data Analyst Linkedin Background (2).png">
+<img alt="Banniere" src="Data Analyst Linkedin Background  (2).png">
 <h1 align="center">Hi 👋, I'm VANA ZOKOM ELIE</h1>
 <h3 align="center">Data Analyst & Scientist</h3>
 
