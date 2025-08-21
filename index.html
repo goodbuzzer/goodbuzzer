@@ -1,0 +1,365 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VANA ZOKOM ELIE - Portfolio </title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;family=Open+Sans:wght@300;400;600&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <style>
+        .imageye-selected {
+            outline: 2px solid black !important;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+        }
+        </style>
+    </head>
+<body class="dark-mode" cz-shortcut-listen="true">
+    <!-- Mode sombre/clair toggle -->
+    <div class="theme-toggle">
+        <button id="theme-toggle-btn" aria-label="Changer de thème">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio VZE</div>
+            <ul class="nav-links">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#competences" class="nav-link active">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#formation" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero" style="background-position: center 296px;">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="name">VANA ZOKOM ELIE</h1>
+                    <h2 class="title">Data Analyst / Data Scientist</h2>
+                    <p class="subtitle"> VALORISER VOS DONNEES 📊 MON COMBAT ⚔️</p>
+                    <p class="award">DataCamp Certified Data Analyst in Python &amp; SQL</p>
+                    <div class="social-links">
+                        <a href="mailto:eliezokom@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/elievanazokom/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/goodbuzzer" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div style="margin-top: 2rem;">
+                        <a href="RESUME BOSS.pdf" download class="btn">Télécharger Mon CV</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.png" alt="VANA ZOKOM ELIE" class="profile-image">
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#competences">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section animate">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-filter">
+                <button class="filter-btn active" data-filter="all">Toutes</button>
+                <button class="filter-btn" data-filter="languages">Langages</button>
+                <button class="filter-btn" data-filter="tools">Outils</button>
+                <button class="filter-btn" data-filter="databases">Bases de données</button>
+            </div>
+            <div class="skills-container">
+                <div class="skill-card animate" data-category="languages" style="opacity: 1; transform: scale(1); transition: opacity 0.5s, transform 0.5s; display: block;">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Python</h3>
+                    <p>Pandas, NumPy, Scikit-learn, MatPlotLib, Pytorch</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 90%; transition: width 1.5s ease-in-out;"></div>
+                    </div>
+                </div>
+                <div class="skill-card animate" data-category="languages" style="opacity: 1; transform: scale(1); transition: opacity 0.5s 0.1s, transform 0.5s; display: block;">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>SQL</h3>
+                    <p>MySQL, PostgreSQL, MS Server</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 85%; transition: width 1.5s ease-in-out;"></div>
+                    </div>
+                </div>
+                <div class="skill-card animate" data-category="tools" style="opacity: 1; transform: scale(1); transition: opacity 0.5s 0.2s, transform 0.5s; display: block;">
+                    <div class="skill-icon"><i class="fas fa-table"></i></div>
+                    <h3>Excel</h3>
+                    <p>VLookup, Pivot Tables, Power Query</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 80%; transition: width 1.5s ease-in-out;"></div>
+                    </div>
+                </div>
+                <div class="skill-card animate" data-category="tools" style="opacity: 1; transform: scale(1); transition: opacity 0.5s 0.3s, transform 0.5s; display: block;">
+                    <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Power BI</h3>
+                    <p>Dashboard, PowerQuery</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 75%; transition: width 1.5s ease-in-out;"></div>
+                    </div>
+                </div>
+                <div class="skill-card animate" data-category="databases" style="opacity: 1; transform: scale(1); transition: opacity 0.5s 0.4s, transform 0.5s; display: block;">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>NoSQL &amp; Big Data</h3>
+                    <p>Neo4j, MongoDB</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 70%; transition: width 1.5s ease-in-out;"></div>
+                    </div>
+                </div>
+                <div class="skill-card animate" data-category="tools" style="opacity: 1; transform: scale(1); transition: opacity 0.5s 0.5s, transform 0.5s; display: block;">
+                    <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile Networks</h3>
+                    <p>2G, 3G, 4G</p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 65%; transition: width 1.5s ease-in-out;"></div>
+                    </div>
+                </div>
+                <div class="skill-card animate" data-category="tools" style="opacity: 1; transform: scale(1); transition: opacity 0.5s 0.6s, transform 0.5s; display: block;">
+                    <div class="skill-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h3>KoboToolBox</h3>
+                    <p></p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 60%; transition: width 1.5s ease-in-out;"></div>
+                    </div>
+                </div>
+                <div class="skill-card animate" data-category="languages" style="opacity: 1; transform: scale(1); transition: opacity 0.5s 0.7s, transform 0.5s; display: block;">
+                    <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Django</h3>
+                    <p></p>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="width: 55%; transition: width 1.5s ease-in-out;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section animate">
+        <div class="container">
+            <h2 class="section-title">Projets</h2>
+            <div class="projects-filter">
+                <button class="filter-btn" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="powerbi">Power BI</button>
+                <button class="filter-btn active" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="excel">Excel</button>
+            </div>
+            <div class="projects-container">
+                <div class="project-card animate" data-category="powerbi" style="opacity: 0; transform: scale(0.8); transition: opacity 0.5s, transform 0.5s; display: none;">
+                    <div class="project-header">
+                        <h3>Call Center Performance Analysis</h3>
+                        <span class="project-date">Janvier 2025</span>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Projet Personnel</span>
+                    </div>
+                    <p class="project-description">Visualisation des métriques de performance clés des agents (vitesse moyenne de réponse, satisfaction client...). Prise de décisions basées sur les données pour ajuster l'efficacité des agents.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
+                    </div>
+                </div>
+                <div class="project-card animate" data-category="python" style="opacity: 1; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); transition: opacity 0.5s 0.1s, transform 0.5s; display: block;">
+                    <div class="project-header">
+                        <h3>Classification des utilisateurs basée sur les modèles de tâches</h3>
+                        <span class="project-date">Novembre 2025</span>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Projet Personnel</span>
+                    </div>
+                    <p class="project-description">Développement d'un pipeline de Machine Learning pour identifier les utilisateurs en fonction de leurs modèles de tâches dans un ensemble de données de 377 caractéristiques. Application de GridSearchCV pour l'ajustement des hyperparamètres et la comparaison des stratégies de normalisation (RobustScaler, StrandardScaler, MinMaxScaler), atteignant une précision de 97,82%.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code source</a>
+                    </div>
+                </div>
+                <div class="project-card animate" data-category="python" style="opacity: 1; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); transition: opacity 0.5s 0.2s, transform 0.5s; display: block;">
+                    <div class="project-header">
+                        <h3>Prédiction du taux de réussite et orientation des étudiants</h3>
+                        <span class="project-date">Avril 2024</span>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">ONG</span>
+                    </div>
+                    <p class="project-description">Implémentation d'un modèle de machine learning et déploiement sur Streamlit pour prédire le taux de réussite des étudiants. Fourniture d'orientation aux étudiants en fonction de leurs données scolaires.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Démo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code source</a>
+                    </div>
+                </div>
+                <div class="project-card animate" data-category="powerbi excel" style="opacity: 0; transform: scale(0.8); transition: opacity 0.5s 0.3s, transform 0.5s; display: none;">
+                    <div class="project-header">
+                        <h3>Analyse des données olympiques</h3>
+                        <span class="project-date">Juillet 2024</span>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Excel</span>
+                        <span class="tag">Projet Personnel</span>
+                    </div>
+                    <p class="project-description">Conception et développement d'un tableau de bord Power BI interactif pour analyser les données historiques des Jeux Olympiques, fournissant des informations sur la distribution des médailles, les performances des athlètes et les tendances de participation des pays. Mise en œuvre de techniques avancées de visualisation de données pour présenter des ensembles de données complexes de manière intuitive, permettant aux parties prenantes de prendre des décisions basées sur les données et de découvrir des modèles clés.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expérience -->
+    <section id="experience" class="section animate">
+        <div class="container">
+            <h2 class="section-title">Expérience Professionnelle</h2>
+            <div class="timeline">
+                <div class="timeline-item animate" style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s, transform 0.5s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Février 2025 - Juillet 2025</div>
+                    <div class="timeline-content">
+                        <h3>Data Analyst</h3>
+                        <h4>Media Intelligence - Yaoundé, Cameroun</h4>
+                        <button class="timeline-toggle-btn"><i class="fas fa-chevron-down"></i> Voir plus</button><ul style="display: none; max-height: 0px; overflow: hidden; transition: max-height 0.3s, opacity 0.3s; opacity: 0;">
+                            <li>Collecte de données pour la cartographie des médias commerciaux au Cameroun</li>
+                            <li>Classement des services bancaires numériques au Cameroun</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item animate" style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s 0.2s, transform 0.5s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Avril 2024 - Août 2024</div>
+                    <div class="timeline-content">
+                        <h3>Data Scientist</h3>
+                        <h4>Humanitarian Ambassadors - Maroua, Cameroun</h4>
+                        <button class="timeline-toggle-btn"><i class="fas fa-chevron-down"></i> Voir plus</button><ul style="display: none; max-height: 0px; overflow: hidden; transition: max-height 0.3s, opacity 0.3s; opacity: 0;">
+                            <li>Implémentation d'un modèle de machine learning sur Streamlit pour prédire le taux de réussite des étudiants</li>
+                            <li>Collaboration sur une plateforme d'e-learning basée sur un Chatbot fine-tuné à partir du modèle fondationnel GPT 3.5</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item animate" style="opacity: 0; transform: translateY(20px); transition: opacity 0.5s 0.4s, transform 0.5s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Juillet 2023 - Octobre 2023</div>
+                    <div class="timeline-content">
+                        <h3>Data Scientist</h3>
+                        <h4>Tagus Drone - Yaoundé, Cameroun</h4>
+                        <button class="timeline-toggle-btn"><i class="fas fa-chevron-down"></i> Voir plus</button><ul style="display: none; max-height: 0px; overflow: hidden; transition: max-height 0.3s, opacity 0.3s; opacity: 0;">
+                            <li>Développement d'un système de détection des souillures sur les panneaux solaires</li>
+                            <li>Pilotage de drones</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formation -->
+    <section id="formation" class="section animate">
+        <div class="container">
+            <h2 class="section-title">Formation</h2>
+            <div class="education-container">
+                <div class="education-card">
+                    <div class="education-year">Nov 2020 - Juil 2025</div>
+                    <h3>Ingénieur de conception en Informatique et Télécommunications option Data Science</h3>
+                    <h4>Ecole Nationale Supérieure Polytechnique de Maroua (ENSPM) - Cameroun</h4>
+                    <p>Spécialités : Gestion de bases de données, Business Analytics, Machine Learning, Deep Learning</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">Avril 2024</div>
+                    <h3>Orange Digital Center Coursera Program</h3>
+                    <h4>Orange Digital Center - Cameroun</h4>
+                    <p>Spécialités : IA générative pour tous | Introduction à l'ingénierie des données | Python pour la Data Science, l'IA et le développement</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">Nov 2020 - Juil 2022</div>
+                    <h3>Classes Préparatoires Scientifiques</h3>
+                    <h4>Ecole Nationale Supérieure Polytechnique de Maroua (ENSPM) - Cameroun</h4>
+                    <p>Spécialités : Analyse, Algèbre, Analyse Numérique, Electromagnétisme, IoT </p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">Mai 2020</div>
+                    <h3>Baccalauréat ESG Série D</h3>
+                    <h4>Lycée Classique et Moderne de Maroua - Cameroun</h4>
+                    <p>Spécialités : Mathématiques, Physique et Biologie</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section animate">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>eliezokom@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(237) 695 103 144</p>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/elievanazokom/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/goodbuzzer" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required=""></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 VANA ZOKOM ELIE. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/interactive.js"></script>
+
+
+</body>
+
+</html>
